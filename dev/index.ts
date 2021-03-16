@@ -21,7 +21,6 @@ mailer.use(
 
 mailer.sendMail(<any>{
     to: 'someone@foo.com',
-    subject: 'Test',
     template: 'test',
     ctx: {
         name: 'Bar'
