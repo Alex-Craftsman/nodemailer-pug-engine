@@ -1,5 +1,3 @@
 .idea/
 node_modules/
 dev/*.html
-lib/index.d.ts
-lib/index.js
