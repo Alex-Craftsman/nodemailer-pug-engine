@@ -8,7 +8,7 @@
     "dev": "ts-node dev/index.ts",
     "build": "tsc",
     "postversion": "git push --follow-tags && npm publish",
-    "prepublish": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "nodemailer",
